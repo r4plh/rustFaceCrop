@@ -1,6 +1,6 @@
 # Rust Face Detection & Dataset Generator
 
-A high-performance, robust Rust application for detecting faces in a large batch of images and generating a clean, cropped face dataset. This tool is built for efficiency and reliability, leveraging Rust's performance and safety features to process the WIDER FACE(val set) dataset and produce over 18,000 cropped faces from ~3,200 images. The resultant dataset with 18000+ images of cropped human faces wiht the relavent information in the dataset cart is uploaded here at - [Cropped Human Face Dataset with 18000+ Humans Faces](https://huggingface.co/datasets/amannagrawall002/croppedFaceDataset/tree/main)
+A high-performance, robust Rust application for detecting faces in a large batch of images and generating a clean, cropped face dataset. This tool is built for efficiency and reliability, leveraging Rust's performance and safety features to process the WIDER FACE(val set) -> [Dataset link WIDER FACE(val set)](https://huggingface.co/datasets/CUHK-CSE/wider_face/tree/main/data) dataset and produce over 18,000 cropped faces from ~3,200 images. The resultant dataset with 18000+ images of cropped human faces wiht the relavent information in the dataset cart is uploaded here at - [Cropped Human Face Dataset with 18000+ Humans Faces](https://huggingface.co/datasets/amannagrawall002/croppedFaceDataset/tree/main)
 
 ## My Thinking & Approach
 
