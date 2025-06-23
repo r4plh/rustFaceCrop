@@ -46,17 +46,8 @@ A ready-to-run Linux binary is available for download. No installation of Rust o
     Go to the [**GitHub Releases Page**](https://github.com/r4plh/rustFaceCrop/releases/latest) and download the `rust-yolo-submission.zip` file. Instructions to use binary file is there in Instructions.md, `rust-yolo-submission.zip` file also contains instructions in detail on how to use it in detail. (Please refer Instructions.md to check the functionality of the binary file and also how to test it.)
 
 2.  **Prepare Your Files:**
-    Unzip the package. Read the Instructions.md file inside the package and then can test the functionality of linux binary.
+    Unzip the package. Read the Instructions.md file inside the package and then can test the functionality of linux binary, everything is written in detail.
 
-3.  **Run from Terminal:**
-    Navigate to your folder in the terminal and run the following commands (In detail written in Instructions.md):
-    ```bash
-    # Make the binary executable (one-time command)
-    chmod +x ./rust-yolo-linux
-
-    # Run the program
-    ./rust-yolo-linux
-    ```
 
 ## Technical Deep Dive: How It Works
 
