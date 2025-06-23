@@ -1,3 +1,6 @@
+### Instructions.md file 
+
+# Important information regarding dataset used.
 * A computer running a modern Linux distribution (e.g., Ubuntu, Fedora).
 * The **`WIDER FACE` Dataset**. This project is configured to use the validation set (This is how I used and generated cropped human face images.)
     1.  Go to the dataset repository on Hugging Face: [CUHK-CSE/wider\_face](https://huggingface.co/datasets/CUHK-CSE/wider_face).
@@ -6,7 +9,9 @@
 
 *(Note: I used this dataset to generate over 18,000 face crops from its ~3,200 validation images.)*
 
-### Package Contents
+### Package Contents 
+
+Package to be downloaded - [Download the package for executing binary file for this program](https://github.com/r4plh/rustFaceCrop/releases/latest)
 
 * `rust-yolo-linux`: The executable binary file.
 * `yolov11n-face.onnx`: The required ONNX neural network model.
@@ -41,7 +46,7 @@
 
 The program will begin processing all images within `WIDER_val`. It will create a new directory named `wider_face_crops` and save the output there. Progress will be printed to the terminal.
 
-### (Optional) For Developers: Testing from Source Code
+### (Optional) For Developers: Testing from Source Code (To Test)
 
 If you want to compile the code yourself or test it with a custom folder of images, follow these steps.
 
@@ -52,7 +57,7 @@ If you want to compile the code yourself or test it with a custom folder of imag
         ```rust
         let images = load_local_images("WIDER_val")?;
         ```
-    * Change the folder name `"WIDER_val"` to your custom folder's name. For example, if you have a folder named `sample_images`, change the line to:
+    * Change the folder name `"WIDER_val"` to your custom folder's name. For example, if you have a folder named `sample_images`, change the line to, I have added sample_images folder to test for few images which are there in sample images because WIDER_FACE_VAL is a big dataset:
         ```rust
         let images = load_local_images("sample_images")?;
         ```
