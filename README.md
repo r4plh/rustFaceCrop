@@ -2,7 +2,7 @@
 [![Rust 1.78+](https://img.shields.io/badge/rust-1.78+-orange.svg)](https://www.rust-lang.org/)
 [![ONNX Runtime](https://img.shields.io/badge/ONNX-Runtime-blue)](https://onnxruntime.ai/)
 [![Docker Build](https://img.shields.io/badge/Docker-Build-blue?style=flat&logo=docker)](https://www.docker.com/)
-[![GitHub release](https://img.shields.io/github/v/release/YOUR_USERNAME/YOUR_REPO_NAME)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/r4plh/rustFaceCrop)](https://img.shields.io/github/v/release/r4plh/rustFaceCrop)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A high-performance, robust Rust application for detecting faces in a large batch of images and generating a clean, cropped face dataset. This tool is built for efficiency and reliability, leveraging Rust's performance and safety features to process the WIDER FACE(val set) -> [Dataset link WIDER FACE(val set)](https://huggingface.co/datasets/CUHK-CSE/wider_face/tree/main/data) dataset and produce over 18,000 cropped faces from ~3,200 images. The resultant dataset with 18000+ images of cropped human faces wiht the relavent information in the dataset cart is uploaded here at - [Cropped Human Face Dataset with 18000+ Humans Faces](https://huggingface.co/datasets/amannagrawall002/croppedFaceDataset/tree/main)
